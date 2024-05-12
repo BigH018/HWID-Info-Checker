@@ -28,7 +28,7 @@ This Python script gathers hardware information from a Windows system, including
 2. Navigate to the project directory.
 3. Run the script using Python:
 
-    ```
+    ```  
     python main.py
     ```
 
@@ -36,15 +36,15 @@ This Python script gathers hardware information from a Windows system, including
 
 You can compile the Python script into an executable file for easier distribution. One popular tool for this purpose is `pyinstaller`. Install it via pip:
 
-    ```
-    pip install pyinstaller
-    ```
+   ```
+   pip install pyinstaller
+   ```
 
-Then, navigate to the project directory in the terminal and run:
+Then, navigate to the project directory in the terminal and run: pyinstaller --onefile --noconsole main.py
 
-    ```
-    pyinstaller --onefile --noconsole main.py
-    ```
+   ```
+   pyinstaller --onefile --noconsole main.py
+   ```
 
 This command will create a standalone executable file in the `dist` directory.
 

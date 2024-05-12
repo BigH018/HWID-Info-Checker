@@ -29,8 +29,24 @@ This Python script gathers hardware information from a Windows system, including
 3. Run the script using Python:
 
     ```
-    python hwid_info.py
+    python main.py
     ```
+
+## Compiling into an Executable
+
+You can compile the Python script into an executable file for easier distribution. One popular tool for this purpose is `pyinstaller`. Install it via pip:
+
+    ```
+    pip install pyinstaller
+    ```
+
+Then, navigate to the project directory in the terminal and run:
+
+    ```
+    pyinstaller --onefile --noconsole main.py
+    ```
+
+This command will create a standalone executable file in the `dist` directory.
 
 ## Troubleshooting
 
@@ -43,3 +59,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+

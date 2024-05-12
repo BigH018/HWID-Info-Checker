@@ -1,7 +1,5 @@
 import subprocess
 import re
-import platform
-import uuid
 import wmi
 import tkinter as tk
 from tkinter import ttk

@@ -87,6 +87,14 @@ HWID-Info-Checker/
 
 ---
 
+## Screenshots
+
+![HWID Info Checker](screenshots/preview.png)
+
+> To add your screenshot: create a `screenshots/` folder in the repo, drop your image in as `preview.png`, and push it.
+
+---
+
 ## License
 
 MIT License — free to use, modify, and distribute.

@@ -71,6 +71,7 @@ HWID-Info-Checker/
 ├── hardware.py      # All hardware data fetching (WMI, subprocess) and error logging
 ├── ui.py            # All PyQt5 UI — window layout, cards, error log panel
 ├── requirements.txt # Python dependencies
+├── screenshots/     # App preview images
 └── .gitignore
 ```
 
@@ -89,9 +90,7 @@ HWID-Info-Checker/
 
 ## Screenshots
 
-![HWID Info Checker](screenshots/preview.png)
-
-> To add your screenshot: create a `screenshots/` folder in the repo, drop your image in as `preview.png`, and push it.
+![HWID Info Checker](screenshots/HWID.png)
 
 ---
 
